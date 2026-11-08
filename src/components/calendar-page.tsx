@@ -20,6 +20,7 @@ import { MonthView } from "./month-view";
 import { WeekView } from "./week-view";
 import { DayView } from "./day-view";
 import { EventModal } from "./event-modal";
+import { AppToolbar } from "./app-toolbar";
 
 /** Met la première lettre en majuscule (les locales date-fns renvoient du minuscule). */
 function cap(s: string): string {
@@ -152,6 +153,7 @@ export function CalendarPage() {
 
   return (
     <div className="mx-auto flex min-h-screen w-full max-w-7xl flex-col gap-4 px-3 py-4 sm:px-6 sm:py-6">
+      <AppToolbar />
       <CalendarHeader
         theme={mounted ? theme : "light"}
         onToggleTheme={toggleTheme}
