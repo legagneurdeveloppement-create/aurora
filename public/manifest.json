@@ -1,0 +1,22 @@
+{
+  "name": "Aurora — Agenda moderne",
+  "short_name": "Aurora",
+  "description": "Un agenda moderne, élégant et fluide, inspiré de Google Agenda avec une touche premium.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#6366f1",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "256x256",
+      "type": "image/svg+xml"
+    }
+  ]
+}
